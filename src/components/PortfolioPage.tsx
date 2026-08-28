@@ -2,8 +2,10 @@
 
 import { useState } from "react";
 import { About } from "@/components/About";
+import { Education } from "@/components/Education";
 import { Hero } from "@/components/Hero";
 import { Navbar } from "@/components/Navbar";
+import { Skills } from "@/components/Skills";
 import {
   Language,
   languages,
@@ -25,6 +27,8 @@ export function PortfolioPage() {
       <main>
         <Hero content={content.hero} />
         <About content={content.about} />
+        <Skills content={content.skills} />
+        <Education content={content.education} />
       </main>
     </div>
   );

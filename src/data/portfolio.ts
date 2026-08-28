@@ -14,6 +14,7 @@ export const portfolioContent = {
         { label: "Home", href: "#home" },
         { label: "About", href: "#about" },
         { label: "Skills", href: "#skills" },
+        { label: "Education", href: "#education" },
         { label: "Contact", href: "#contact" },
       ],
     },
@@ -51,6 +52,47 @@ export const portfolioContent = {
         "TODO: Add the working style or value you want to show",
       ],
     },
+    skills: {
+      eyebrow: "Skills & Technologies",
+      title: "Tools and concepts I am building with",
+      description:
+        "TODO: Replace these groups with the technologies you actually use, then remove anything that does not reflect your current ability.",
+      groups: [
+        {
+          title: "Frontend",
+          items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"],
+        },
+        {
+          title: "Styling",
+          items: ["Tailwind CSS", "Responsive Design", "UI Composition"],
+        },
+        {
+          title: "Tools",
+          items: ["Git", "GitHub", "VS Code", "npm"],
+        },
+        {
+          title: "Learning Focus",
+          items: ["AI Fundamentals", "Web Performance", "Clean Code"],
+        },
+      ],
+    },
+    education: {
+      eyebrow: "Education",
+      title: "Academic background",
+      description:
+        "TODO: Add your real school, major, timeline, and academic focus here.",
+      items: [
+        {
+          school: "TODO: Add university or school name",
+          degree: "TODO: Add degree or program",
+          period: "TODO: Add start year - end year",
+          details: [
+            "TODO: Add relevant coursework, academic focus, or club involvement",
+            "TODO: Add one learning outcome you want recruiters to notice",
+          ],
+        },
+      ],
+    },
   },
   vi: {
     nav: {
@@ -60,6 +102,7 @@ export const portfolioContent = {
         { label: "Trang chủ", href: "#home" },
         { label: "Giới thiệu", href: "#about" },
         { label: "Kỹ năng", href: "#skills" },
+        { label: "Học vấn", href: "#education" },
         { label: "Liên hệ", href: "#contact" },
       ],
     },
@@ -97,6 +140,47 @@ export const portfolioContent = {
         "TODO: Thêm điểm mạnh chính của bạn",
         "TODO: Thêm công nghệ hoặc lĩnh vực bạn quan tâm",
         "TODO: Thêm giá trị/cách làm việc bạn muốn thể hiện",
+      ],
+    },
+    skills: {
+      eyebrow: "Kỹ năng & Công nghệ",
+      title: "Những công cụ và khái niệm mình đang sử dụng",
+      description:
+        "TODO: Thay các nhóm này bằng công nghệ bạn thật sự dùng, rồi xoá những mục chưa phản ánh đúng năng lực hiện tại.",
+      groups: [
+        {
+          title: "Frontend",
+          items: ["HTML", "CSS", "JavaScript", "TypeScript", "React", "Next.js"],
+        },
+        {
+          title: "Giao diện",
+          items: ["Tailwind CSS", "Responsive Design", "UI Composition"],
+        },
+        {
+          title: "Công cụ",
+          items: ["Git", "GitHub", "VS Code", "npm"],
+        },
+        {
+          title: "Đang học sâu hơn",
+          items: ["AI Fundamentals", "Web Performance", "Clean Code"],
+        },
+      ],
+    },
+    education: {
+      eyebrow: "Học vấn",
+      title: "Nền tảng học tập",
+      description:
+        "TODO: Thêm trường, ngành học, thời gian học và định hướng học thuật thật của bạn tại đây.",
+      items: [
+        {
+          school: "TODO: Thêm tên trường đại học hoặc trường học",
+          degree: "TODO: Thêm ngành học hoặc chương trình học",
+          period: "TODO: Thêm năm bắt đầu - năm kết thúc",
+          details: [
+            "TODO: Thêm môn học liên quan, định hướng học thuật hoặc hoạt động CLB",
+            "TODO: Thêm một kết quả học tập bạn muốn nhà tuyển dụng chú ý",
+          ],
+        },
       ],
     },
   },

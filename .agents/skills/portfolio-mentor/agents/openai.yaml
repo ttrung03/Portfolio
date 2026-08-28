@@ -1,0 +1,12 @@
+interface:
+  display_name: Portfolio Mentor
+  short_description: Teach and pair-program a Next.js portfolio through Vercel deployment
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
